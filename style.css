@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#gameboard {
+    border: solid blue;
+    position:relative;
+     display: flex;
+    flex-direction: column;
+     justify-content: space-between; 
+    align-items: center;  
+    height: 100vh;
+    width: 100vw;
+    font-family:'Courier New', Courier, monospace;
+    background-size: 100%;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    background-image: url(https://media1.giphy.com/media/elcAvTEXkG02d17sr7/giphy.gif);
+}
+
+.humanship, .alienship {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nameOne, .nameTwo {
+    border: double rgb(205, 82, 0);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.shipImage {
+    background-image: url(https://cdn.dribbble.com/users/38834/screenshots/1997973/comp-6.gif);
+    border: 1px solid black;
+    width: 30vw;
+    height: 30vh; 
+    border: double rgb(205, 82, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+.alienImage {
+    background-image: url(https://media4.giphy.com/media/r88w2d7tHqazFwNEGN/giphy.gif?cid=6c09b952c2knz14ab6i1nh6gffxevto1nsr9bvqajhw7qj96&ep=v1_gifs_search&rid=giphy.gif);
+    border: 1px solid black;
+    width: 30vw;
+    height: 30vh; 
+    border: double rgb(205, 82, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: double rgb(205, 82, 0);
+    font-size: 20px;
+
+}
+
+#buttonStart , #buttonNext , #buttonRetreat {
+    background-color: #e8b0166c;
+    color: rgb(241, 243, 247);
+    font-size: 20px;
+    margin: 10px;
+    border: double rgb(75, 0, 205) ;
+    border-radius: 20%;
+    width: 100px ;
+    height: 100px;
+    padding: 10px ;
+}
