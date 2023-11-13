@@ -35,7 +35,7 @@ class AlienShip extends Ship {
 }
 
 const alienShips = [];
-for (let i = 0; i <= 6; i++) {
+for (let i = 0; i < 6; i++) {
   alienShips.push(new AlienShip(`Alien Ship ${i}`));
 }
 
